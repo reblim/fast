@@ -1,6 +1,13 @@
 # **Fast** ⚡️
 ### Develop, build, deploy, redeploy, and teardown frontend projects fast ⚡️.
 
+## 📖 About Fast.
+With so many frontend technologies available nowadays, sometimes it may feel a bit cumbersome to get started with a project.
+
+**Fast** aims to alleviate this by providing a simple, yet powerful boilerplate, to get you started with any frontend project.
+
+With fast, you can `develop`, `build`, `deploy`, `redeploy`, and `teardown` frontend projects fast, **really fast ⚡️**.
+
 ## ⬇️ Get Fast.
 To get fast, [clone](https://github.com/reblim/fast.git) or [download](https://github.com/reblim/fast/archive/main.zip) the repository.
 
@@ -53,7 +60,7 @@ The `serve` script will start the server and open your default browser on [`http
 
 **Note:** *If you would like to run the server on a different port, simply update the port `3000` provided in the start script to the port of your preference.*
 
-### Build for production
+### Build for production.
 
 If you would like to `build` the project to use your own deployment pipeline, you can run the build command:
 
@@ -67,12 +74,22 @@ yarn build
 npm run build
 ```
 
-## 📖 About Fast.
-With so many frontend technologies available nowadays, sometimes it may feel a bit cumbersome to get started with a project.
+### Deploy your project.
+Deploying your project couldn't be easier! Thanks to [Surge](https://surge.sh/), you can deploy your entire project to your custom domain, or to a free `surge.sh` sub-domain e.g. `your-awesome-project.surge.sh`.
 
-**Fast** aims to alleviate this by providing a simple, yet powerful boilerplate, to get you started with any frontend project.
+**Note:** *To deploy to a custom domain, read [Surge's documenation](https://surge.sh/help/adding-a-custom-domain).*
 
-With fast, you can `develop`, `build`, `deploy`, `redeploy`, and `teardown` frontend projects fast, **really fast ⚡️**.
+To deploy your project, run:
+**Using Yarn:**
+```
+yarn deploy
+```
+
+**Using NPM:**
+```
+npm run deploy
+```
+...and follow the command-line instructions. It's that easy!
 
 ## 💾 Core technologies.
 At the core, **Fast** uses [Normalize.css](https://necolas.github.io/normalize.css/), [PostCss](https://postcss.org/), [Sass](https://sass-lang.com/), [Babel](https://babeljs.io/), [Parcel](https://parceljs.org/), and [Surge](https://surge.sh/).
