@@ -51,6 +51,8 @@ The `start` script will start the server using the default port `3000`. However,
 
 The `serve` script will start the server and open your default browser on [`http://localhost:3000/`](http://localhost:3000/).
 
+**Note:** *If you would like to run the server on a different port, simply update the port `3000` provided in the start script to the port of your preference.*
+
 ### Build for production
 
 If you would like to `build` the project to use your own deployment pipeline, you can run the build command:
