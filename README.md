@@ -5,7 +5,7 @@
 To get fast, [clone](https://github.com/reblim/fast.git) or [download](https://github.com/reblim/fast/archive/main.zip) the repository.
 
 ## 💻 Use Fast.
-Using **Fast** is super simple. Simply `open the **Fast** folder` using your favorite code editor and install the necessary dependencies.
+Using **Fast** is super simple. Simply `open the Fast folder` using your favorite code editor and install the necessary dependencies.
 
 **Note:** *We use [Yarn](https://yarnpkg.com/) for fast, reliable, and secure dependency management but feel free to use [NPM](https://www.npmjs.com/) if you prefer.*
 
@@ -18,7 +18,7 @@ or
 yarn install
 ```
 
-If you prefer to use [NPM](https://www.npmjs.com/) instead, first remove the `yarn.lock` file and run:
+If you prefer to **use [NPM](https://www.npmjs.com/)** instead, first remove the `yarn.lock` file and run:
 
 ```
 npm install
@@ -29,7 +29,7 @@ That's it! Now you are ready to start developing your awesome project 😎.
 ### Start developing.
 To start developing, run:
 
-*Using Yarn:*
+**Using Yarn:**
 ```
 yarn start
 ```
@@ -38,7 +38,7 @@ or
 yarn serve
 ```
 
-*Using NPM*
+**Using NPM:**
 ```
 npm run start
 ```
@@ -47,21 +47,23 @@ or
 npm run serve
 ```
 
-If you would like to build the project to use your own deployment pipeline, you can run the build command:
+The `start` script will start the server using the default port `3000`. However, you will have to manually open your default browser on `http://localhost:3000/`.
 
-*Using Yarn:*
+The `serve` script will start the server and open your default browser on `http://localhost:3000/`.
+
+### Build for production
+
+If you would like to `build` the project to use your own deployment pipeline, you can run the build command:
+
+**Using Yarn:**
 ```
 yarn build
 ```
 
-*Using NPM:*
+**Using NPM:**
 ```
 npm run build
 ```
-
-The `start` script will start the server using the default port `3000`. However, you will have to manually open your default browser on `http://localhost:3000/`.
-
-The `serve` script will start the server and open your default browser on `http://localhost:3000/`.
 
 ## 📖 About Fast.
 With so many frontend technologies available nowadays, sometimes it may feel a bit cumbersome to get started with a project.
