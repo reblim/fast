@@ -31,7 +31,7 @@ If you prefer to **use [NPM](https://www.npmjs.com/)** instead, first remove the
 npm install
 ```
 
-That's it! Now you are ready to start developing your awesome project 😎.
+That's it! Now you are ready to start developing your awesome project 😎
 
 ## 🎬 Start developing.
 To start developing, run:
@@ -160,6 +160,14 @@ We use [Parcel](https://parceljs.org/) for Blazing fast bundle times. [Parcel](h
 
 ### Surge.
 We use [Surge](https://surge.sh/) for fast and simple, static web publishing through a single command. [Surge](https://surge.sh/) allows you to deploy, update deploys (redeploy), and teardown your frontend projects in just a few seconds using default or custom domains for free.
+
+## 🚨 Found issues?
+
+[Please create a ticket.](https://github.com/reblim/fast/issues)
+
+## 🎗 Would you like to contribute?
+
+[Create a pull request.](https://github.com/reblim/fast/pulls)
 
 ## 👩‍⚖️ License.
 [MIT License](LICENSE)
