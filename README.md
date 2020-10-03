@@ -1,6 +1,5 @@
-![Become a sponsor](https://i.ibb.co/CJxDLSf/fast-donate-QR-code.png?raw=true "Become a sponsor")
-
 # **Fast** ⚡️
+![Become a sponsor](https://i.ibb.co/CJxDLSf/fast-donate-QR-code.png?raw=true "Become a sponsor")
 ### Develop, build, deploy, redeploy, and teardown frontend projects fast ⚡️.
 
 ## 📖 About Fast.
