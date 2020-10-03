@@ -47,9 +47,9 @@ or
 npm run serve
 ```
 
-The `start` script will start the server using the default port `3000`. However, you will have to manually open your default browser on `http://localhost:3000/`.
+The `start` script will start the server using the default port `3000`. However, you will have to manually open your default browser on [`http://localhost:3000/`](http://localhost:3000/).
 
-The `serve` script will start the server and open your default browser on `http://localhost:3000/`.
+The `serve` script will start the server and open your default browser on [`http://localhost:3000/`](http://localhost:3000/).
 
 ### Build for production
 
