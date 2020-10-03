@@ -1,0 +1,36 @@
+{
+  "name": "fast",
+  "version": "0.0.1",
+  "description": "Modern frontend stack",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel -p 3000 index.html",
+    "serve": "yarn start --open",
+    "build": "parcel build index.html",
+    "deploy": "cd dist && surge",
+    "redeploy": "cd dist && surge --domain",
+    "teardown": "cd dist && surge teardown"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reblim/fast.git"
+  },
+  "author": "Milber Ferreira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reblim/fast/issues"
+  },
+  "homepage": "https://github.com/reblim/fast#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "node-sass": "^4.14.1",
+    "parcel-bundler": "^1.12.4",
+    "surge": "^0.21.6"
+  },
+  "dependencies": {
+    "normalize.css": "^7.0.0"
+  }
+}

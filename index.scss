@@ -1,0 +1,19 @@
+:root {
+    --background-color: black;
+    --color: #ffdd01;
+}
+
+body {
+    background: var(--background-color);
+    color: var(--color);
+    font-family: sans-serif;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+}
