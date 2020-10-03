@@ -33,7 +33,7 @@ npm install
 
 That's it! Now you are ready to start developing your awesome project 😎.
 
-### Start developing.
+## 🎬 Start developing.
 To start developing, run:
 
 **Using Yarn:**
@@ -60,7 +60,7 @@ The `serve` script will start the server and open your default browser on [`http
 
 **Note:** *If you would like to run the server on a different port, simply update the port `3000` provided in the start script to the port of your preference.*
 
-### Build for production.
+## 🏗 Build for production.
 
 If you would like to `build` the project to use your own deployment pipeline, you can run the build command:
 
@@ -74,7 +74,7 @@ yarn build
 npm run build
 ```
 
-### Deploy your project.
+## 🚀 Deploy your project.
 Deploying your project couldn't be easier! Thanks to [Surge](https://surge.sh/), you can deploy your entire project to your custom domain, or to a free `surge.sh` sub-domain e.g. `your-awesome-project.surge.sh`.
 
 **Note:** *To deploy to a custom domain, read [Surge's documenation](https://surge.sh/help/adding-a-custom-domain).*
@@ -91,7 +91,7 @@ npm run deploy
 ```
 ...and follow the command-line instructions. It's that easy!
 
-### Redeploy your project.
+## 🏁 Redeploy your project.
 If you made further changes and need to redeploy your project, simply run `yarn redeploy` providing the deployment URL as the last argument to the command, like so:
 
 **Using Yarn:**
@@ -112,8 +112,8 @@ or *(if using a custom domain)*
 npm run redeploy your-custom-domain.com
 ```
 
-### Tear down your project.
-There is a time when all projects must die ⚰️
+## ⚰️ Tear down your project.
+There is a time when all projects must come to an end.
 
 To tear down your project, run:
 
@@ -135,7 +135,7 @@ or *(if using a custom domain)*
 npm run teardown your-custom-domain.com
 ```
 
-### Custom 404 page.
+## 🚧 Custom 404 page.
 [Surge](https://surge.sh/) also allows you to [add a custom 404 – Not Found page](https://surge.sh/help/adding-a-custom-404-not-found-page).
 
 You can override Surge’s default 404 – Not Found page with your own, completely custom one by **simply adding a 404.html file in the root of your project**.
