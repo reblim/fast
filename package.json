@@ -1,7 +1,7 @@
 {
   "name": "fast",
   "version": "0.0.1",
-  "description": "Modern frontend stack",
+  "description": "Develop, build, deploy, redeploy, and teardown pages fast ⚡️",
   "main": "index.js",
   "scripts": {
     "start": "parcel -p 3000 index.html",
