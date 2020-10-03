@@ -91,6 +91,27 @@ npm run deploy
 ```
 ...and follow the command-line instructions. It's that easy!
 
+### Redeploy your project.
+If you made further changes and need to redeploy your project, simply run `yarn redeploy` providing the deployment URL as the last argument to the command, like so:
+
+**Using Yarn:**
+```
+yarn redeploy your-awesome-project.surge.sh
+```
+or 
+```
+yarn redeploy your-custom-domain.com
+```
+
+**Using NPM:**
+```
+npm run redeploy your-awesome-project.surge.sh
+```
+or 
+```
+npm run redeploy your-custom-domain.com
+```
+
 ## 💾 Core technologies.
 At the core, **Fast** uses [Normalize.css](https://necolas.github.io/normalize.css/), [PostCss](https://postcss.org/), [Sass](https://sass-lang.com/), [Babel](https://babeljs.io/), [Parcel](https://parceljs.org/), and [Surge](https://surge.sh/).
 
