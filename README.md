@@ -4,6 +4,41 @@
 ## ⬇️ Get Fast.
 To get fast, [clone](https://github.com/reblim/fast.git) or [download](https://github.com/reblim/fast/archive/main.zip) the repository.
 
+## 💻 Use Fast.
+Using Fast is super simple. Simply open the Fast folder using your favorite code editor and install the necessary dependencies.
+
+### Installing the necessary dependencies.
+```
+yarn
+```
+or 
+```
+yarn install
+```
+
+If you prefer to use NPM instead, first remove the `yarn.lock` file and run:
+
+```
+npm install
+```
+
+That's it! Now you are ready to start developing your awesome project 😎.
+
+### Start developing.
+To start developing, run:
+
+```
+yarn start
+```
+or
+```
+yarn serve
+```
+
+The `start` script will start the server using the default port `3000`. However, you will have to manually open your default browser on `http://localhost:3000/`.
+
+The `serve` script will start the server and open your default browser on `http://localhost:3000/`.
+
 ## 📖 About Fast.
 With so many frontend technologies available nowadays, sometimes it may feel a bit cumbersome to get started with a project.
 
