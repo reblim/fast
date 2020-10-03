@@ -98,7 +98,7 @@ If you made further changes and need to redeploy your project, simply run `yarn 
 ```
 yarn redeploy your-awesome-project.surge.sh
 ```
-or 
+or *(if using a custom domain)*
 ```
 yarn redeploy your-custom-domain.com
 ```
@@ -107,10 +107,38 @@ yarn redeploy your-custom-domain.com
 ```
 npm run redeploy your-awesome-project.surge.sh
 ```
-or 
+or *(if using a custom domain)*
 ```
 npm run redeploy your-custom-domain.com
 ```
+
+### Tear down your project.
+There is a time when all projects must die ⚰️
+
+To tear down your project, run:
+
+**Using Yarn:**
+```
+yarn teardown your-awesome-project.surge.sh
+```
+or *(if using a custom domain)*
+```
+yarn teardown your-custom-domain.com
+```
+
+**Using NPM:**
+```
+npm run teardown your-awesome-project.surge.sh
+```
+or *(if using a custom domain)*
+```
+npm run teardown your-custom-domain.com
+```
+
+### Custom 404 page.
+[Surge](https://surge.sh/) also allows you to [add a custom 404 – Not Found page](https://surge.sh/help/adding-a-custom-404-not-found-page).
+
+You can override Surge’s default 404 – Not Found page with your own, completely custom one by **simply adding a 404.html file in the root of your project**.
 
 ## 💾 Core technologies.
 At the core, **Fast** uses [Normalize.css](https://necolas.github.io/normalize.css/), [PostCss](https://postcss.org/), [Sass](https://sass-lang.com/), [Babel](https://babeljs.io/), [Parcel](https://parceljs.org/), and [Surge](https://surge.sh/).
