@@ -161,7 +161,7 @@ We use [Parcel](https://parceljs.org/) for Blazing fast bundle times. [Parcel](h
 ### Surge.
 We use [Surge](https://surge.sh/) for fast and simple, static web publishing through a single command. [Surge](https://surge.sh/) allows you to deploy, update deploys (redeploy), and teardown your frontend projects in just a few seconds using default or custom domains for free.
 
-## License.
+## 👩‍⚖️ License.
 [MIT License](LICENSE)
 
 Copyright (c) 2020 Milber Ferreira
