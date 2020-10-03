@@ -168,7 +168,8 @@ We use [Surge](https://surge.sh/) for fast and simple, static web publishing thr
 ## 🎗 Would you like to contribute?
 
 [Create a pull request.](https://github.com/reblim/fast/pulls)
-[Become a sponsor](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9X7WHKVVBLEYC)
+[Become a sponsor](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9X7WHKVVBLEYC) ❤️
+![Become a sponsor](https://i.ibb.co/CJxDLSf/fast-donate-QR-code.png?raw=true "Become a sponsor")
 
 ## 👩‍⚖️ License.
 [MIT License](LICENSE)
