@@ -7,9 +7,9 @@
     "start": "parcel -p 3000 index.html",
     "serve": "yarn start --open",
     "build": "parcel build index.html",
-    "deploy": "cd dist && surge",
-    "redeploy": "cd dist && surge --domain",
-    "teardown": "cd dist && surge teardown"
+    "deploy": "yarn build && cd dist && surge",
+    "redeploy": "yarn build && cd dist && surge --domain",
+    "teardown": "surge teardown"
   },
   "repository": {
     "type": "git",
