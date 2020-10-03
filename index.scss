@@ -1,11 +1,11 @@
 :root {
-    --background-color: #1c1c1c;
-    --color: #ffdd01;
+    --dark-color: #1c1c1c;
+    --light-color: #ffdd01;
 }
 
 body {
-    background: var(--background-color);
-    color: var(--color);
+    background: var(--dark-color);
+    color: var(--light-color);
     font-family: sans-serif;
 
     section {
