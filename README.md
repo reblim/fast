@@ -17,7 +17,7 @@ With Fast, you can `develop`, `build`, `deploy`, `redeploy`, and `teardown` fron
 ## ⬇️ Get Fast.
 To get fast, [clone](https://github.com/reblim/fast.git) or [download](https://github.com/reblim/fast/archive/main.zip) the repository.
 
-## 💻 Use Fast.
+## 🚏 Use Fast.
 Using **Fast** is super simple. Simply `open the Fast folder` using your favorite code editor and install the necessary dependencies.
 
 **Note:** *We use [Yarn](https://yarnpkg.com/) for fast, reliable, and secure dependency management but feel free to use [NPM](https://www.npmjs.com/) if you prefer.*
@@ -39,7 +39,7 @@ npm install
 
 That's it! Now you are ready to start developing your awesome project 😎
 
-## 🎬 Start developing.
+## 💻 Start developing.
 To start developing, run:
 
 **Using Yarn:**
