@@ -1,10 +1,11 @@
 # **Fast** ⚡️
 
+### Develop, build, deploy, redeploy, and teardown frontend projects fast ⚡️.
+
 ![This is Fast](https://ph-files.imgix.net/7e2b9781-81b1-422c-8112-4e3469c7d1d7.gif "This is Fast explainer")
 
 ## ❤️ Become a sponsor.
-![Become a sponsor](https://i.ibb.co/CJxDLSf/fast-donate-QR-code.png?raw=true "Become a sponsor")
-### Develop, build, deploy, redeploy, and teardown frontend projects fast ⚡️.
+[![Become a sponsor](https://i.ibb.co/CJxDLSf/fast-donate-QR-code.png?raw=true "Become a sponsor")](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9X7WHKVVBLEYC)
 
 ## 📖 About Fast.
 With so many frontend technologies available nowadays, sometimes it may feel a bit cumbersome to get started with a project.
