@@ -1,6 +1,8 @@
+# **Fast** ⚡️
+
 ![This is Fast](https://ph-files.imgix.net/7e2b9781-81b1-422c-8112-4e3469c7d1d7.gif "This is Fast explainer")
 
-# **Fast** ⚡️
+## ❤️ Become a sponsor.
 ![Become a sponsor](https://i.ibb.co/CJxDLSf/fast-donate-QR-code.png?raw=true "Become a sponsor")
 ### Develop, build, deploy, redeploy, and teardown frontend projects fast ⚡️.
 
