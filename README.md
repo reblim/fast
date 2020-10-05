@@ -29,6 +29,7 @@ Using **Fast** is super simple. Simply `open the Fast folder` using your favorit
 ```
 
 ### Installing the necessary dependencies.
+**Using Yarn:**
 ```
 yarn
 ```
@@ -37,8 +38,7 @@ or
 yarn install
 ```
 
-If you prefer to **use [NPM](https://www.npmjs.com/)** instead, first remove the `yarn.lock` file and run:
-
+**Using NPM:**
 ```
 npm install
 ```
