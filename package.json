@@ -1,6 +1,6 @@
 {
   "name": "fast",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Develop, build, deploy, redeploy, and teardown frontend projects fast ⚡️",
   "main": "index.js",
   "scripts": {
@@ -27,10 +27,9 @@
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "node-sass": "^4.14.1",
+    "normalize.css": "^8.0.1",
     "parcel-bundler": "^1.12.4",
     "surge": "^0.21.6"
   },
-  "dependencies": {
-    "normalize.css": "^7.0.0"
-  }
+  "dependencies": {}
 }
