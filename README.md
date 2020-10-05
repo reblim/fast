@@ -89,7 +89,7 @@ npm run build
 ## 🚀 Deploy your project.
 Deploying your project couldn't be easier! Thanks to [Surge](https://surge.sh/), you can deploy your entire project to your custom domain, or to a free `surge.sh` sub-domain e.g. `your-awesome-project.surge.sh`.
 
-**Note:** *To deploy to a custom domain, read [Surge's documenation](https://surge.sh/help/adding-a-custom-domain).*
+**Note:** *To deploy to a custom domain, read [Surge's documentation](https://surge.sh/help/adding-a-custom-domain).*
 
 To deploy your project, run:
 **Using Yarn:**
