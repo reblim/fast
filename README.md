@@ -23,7 +23,7 @@ Using **Fast** is super simple. Simply `open the Fast folder` using your favorit
 **Note:** *We use [Yarn](https://yarnpkg.com/) for fast, reliable, and secure dependency management but feel free to use [NPM](https://www.npmjs.com/) if you prefer.*
 
 ### ⚠️ Are you on Windows?
-**Replace all instances of `$npm_execpath` in the package.json file with:**
+**Replace all instances of `$npm_execpath` in the [package.json](package.json) file with:**
 ```
 %npm_execpath%
 ```
