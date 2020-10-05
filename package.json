@@ -26,9 +26,9 @@
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
-    "node-sass": "^4.14.1",
     "normalize.css": "^8.0.1",
     "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.11",
     "surge": "^0.21.6"
   },
   "dependencies": {}
