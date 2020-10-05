@@ -24,3 +24,6 @@ If adding new feature provide a convincing reason to add this feature.
 
 ## License.
 By contributing to **Fast**, you agree that your contributions will be licensed under the [**MIT license**](https://github.com/reblim/fast/blob/main/LICENSE).
+
+## Credits.
+Thank you to [all the people](https://github.com/reblim/fast/graphs/contributors) who have already contributed to **Fast**!

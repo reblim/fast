@@ -187,6 +187,9 @@ We use [Surge](https://surge.sh/) for fast and simple, static web publishing thr
 
 [Become a sponsor ❤️](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9X7WHKVVBLEYC)
 
+## 🙌 Credits.
+Thank you to [all our contributors](https://github.com/reblim/fast/graphs/contributors).
+
 ## 👩‍⚖️ License.
 [MIT License](LICENSE)
 
