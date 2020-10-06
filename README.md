@@ -209,7 +209,9 @@ We use Node-sass, a library that provides binding for Node.js to LibSass, the C 
 
 ### Babel.
 
-We use [Babel](https://babeljs.io/) with [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env), a smart preset that allows you to use the latest JavaScript without needing to micromanage which syntax transforms (and optionally, browser polyfills) are needed by your target environment(s). This both makes your life easier and JavaScript bundles smaller!
+We use [Babel](https://babeljs.io/) with [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env) through [Parcel's](https://parceljs.org/) default configuration, which is triggered based on the `browserslist` declaration in the [package.json](package.json) file. [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env) is a smart preset that allows you to use the latest JavaScript without needing to micromanage which syntax transforms (and optionally, browser polyfills) are needed by your target environment(s). This both makes your life easier and JavaScript bundles smaller!
+
+**Note:** If your project needs to support older browsers, simply update the `browserslist` declaration in the [package.json](package.json) file to your desired configuration, and both [Babel](https://babeljs.io/) and [PostCSS's](https://postcss.org/) [Autoprefixer](https://github.com/postcss/autoprefixer#readme) will update to provide the necessary transformations.
 
 ### Parcel.
 
