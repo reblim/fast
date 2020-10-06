@@ -24,7 +24,7 @@ To get fast, [clone](https://github.com/reblim/fast.git) or [download](https://g
 
 Using **Fast** is super simple. Simply `open the Fast folder` using your favorite code editor and install the necessary dependencies.
 
-**Note:** _We use [Yarn](https://yarnpkg.com/) for fast, reliable, and secure dependency management but feel free to use [NPM](https://www.npmjs.com/) if you prefer._
+**Note:** _**Fast** uses [Yarn](https://yarnpkg.com/) for fast, reliable, and secure dependency management but feel free to use [NPM](https://www.npmjs.com/) if you prefer._
 
 ### ⚠️ Are you on Windows?
 
@@ -201,25 +201,25 @@ At the core, **Fast** uses [Normalize.css](https://necolas.github.io/normalize.c
 
 ### PostCSS.
 
-We use [Autoprefixer](https://github.com/postcss/autoprefixer#readme), a [PostCSS](https://postcss.org/) plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use. It is recommended by Google and used in Twitter and Alibaba. This allows you to write your CSS rules without vendor prefixes.
+**Fast** uses [Autoprefixer](https://github.com/postcss/autoprefixer#readme), a [PostCSS](https://postcss.org/) plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use. It is recommended by Google and used in Twitter and Alibaba. This allows you to write your CSS rules without vendor prefixes.
 
 ### Sass.
 
-We use Node-sass, a library that provides binding for Node.js to LibSass, the C version of the popular stylesheet preprocessor, [Sass](https://sass-lang.com/). It allows you to natively compile `.scss` files to CSS at incredible speed and automatically via a connect middleware.
+**Fast** uses Node-sass, a library that provides binding for Node.js to LibSass, the C version of the popular stylesheet preprocessor, [Sass](https://sass-lang.com/). It allows you to natively compile `.scss` files to CSS at incredible speed and automatically via a connect middleware.
 
 ### Babel.
 
-We use [Babel](https://babeljs.io/) with [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env) through [Parcel's](https://parceljs.org/) default configuration, which is triggered based on the `browserslist` declaration in the [package.json](package.json) file. [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env) is a smart preset that allows you to use the latest JavaScript without needing to micromanage which syntax transforms (and optionally, browser polyfills) are needed by your target environment(s). This both makes your life easier and JavaScript bundles smaller!
+**Fast** uses [Babel](https://babeljs.io/) with [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env) through [Parcel's](https://parceljs.org/) default configuration, which is triggered based on the `browserslist` declaration in the [package.json](package.json) file. [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env) is a smart preset that allows you to use the latest JavaScript without needing to micromanage which syntax transforms (and optionally, browser polyfills) are needed by your target environment(s). This both makes your life easier and JavaScript bundles smaller!
 
 **Note:** If your project needs to support older browsers, simply update the `browserslist` declaration in the [package.json](package.json) file to your desired configuration, and both [Babel](https://babeljs.io/) and [PostCSS's](https://postcss.org/) [Autoprefixer](https://github.com/postcss/autoprefixer#readme) will update to provide the necessary transformations.
 
 ### Parcel.
 
-We use [Parcel](https://parceljs.org/) for Blazing fast bundle times. [Parcel](https://parceljs.org/) uses worker processes to enable multicore compilation and has a filesystem cache for fast rebuilds even after a restart.
+**Fast** uses [Parcel](https://parceljs.org/) for Blazing fast bundle times. [Parcel](https://parceljs.org/) uses worker processes to enable multicore compilation and has a filesystem cache for fast rebuilds even after a restart.
 
 ### Surge.
 
-We use [Surge](https://surge.sh/) for fast and simple, static web publishing through a single command. [Surge](https://surge.sh/) allows you to deploy, update deploys (redeploy), and teardown your frontend projects in just a few seconds using default or custom domains for free.
+**Fast** uses [Surge](https://surge.sh/) for fast and simple, static web publishing through a single command. [Surge](https://surge.sh/) allows you to deploy, update deploys (redeploy), and teardown your frontend projects in just a few seconds using default or custom domains for free.
 
 ## 🚨 Found issues?
 
