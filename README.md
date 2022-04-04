@@ -193,15 +193,21 @@ You can override Surge’s default 404 – Not Found page with your own, complet
 
 ## 💾 Core technologies.
 
-At the core, **Fast** uses [Normalize.css](https://necolas.github.io/normalize.css/), [PostCss](https://postcss.org/), [Sass](https://sass-lang.com/), [Babel](https://babeljs.io/), [Parcel](https://parceljs.org/), and [Surge](https://surge.sh/).
+At the core, **Fast** uses [Parcel](https://parceljs.org/), [Surge](https://surge.sh/), [Normalize.css](https://necolas.github.io/normalize.css/), [Sass](https://sass-lang.com/), and [Babel](https://babeljs.io/).
+
+### Parcel.
+
+**Fast** uses [Parcel](https://parceljs.org/) for Blazing fast bundle times. [Parcel](https://parceljs.org/) uses worker processes to enable multicore compilation and has a filesystem cache for fast rebuilds even after a restart. **Parcel** uses [Autoprefixer](https://github.com/postcss/autoprefixer#readme), a [PostCSS](https://postcss.org/) plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use. It is recommended by Google and used in Twitter and Alibaba. This allows you to write your CSS rules without vendor prefixes.
+
+**Note:** If your project needs to support older browsers, simply update the `browserslist` declaration in the [package.json](package.json) file to your desired configuration, and both [Babel](https://babeljs.io/) and [PostCSS's](https://postcss.org/) [Autoprefixer](https://github.com/postcss/autoprefixer#readme) will update to provide the necessary transformations through [Parcel](https://parceljs.org/).
+
+### Surge.
+
+**Fast** uses [Surge](https://surge.sh/) for fast and simple, static web publishing through a single command. [Surge](https://surge.sh/) allows you to deploy, update deploys (redeploy), and teardown your frontend projects in just a few seconds using default or custom domains for free.
 
 ### Normalize.css.
 
 [Normalize.css](https://necolas.github.io/normalize.css/) makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing.
-
-### PostCSS.
-
-**Fast** uses [Autoprefixer](https://github.com/postcss/autoprefixer#readme), a [PostCSS](https://postcss.org/) plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use. It is recommended by Google and used in Twitter and Alibaba. This allows you to write your CSS rules without vendor prefixes.
 
 ### Sass.
 
@@ -210,16 +216,6 @@ At the core, **Fast** uses [Normalize.css](https://necolas.github.io/normalize.c
 ### Babel.
 
 **Fast** uses [Babel](https://babeljs.io/) with [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env) through [Parcel's](https://parceljs.org/) default configuration, which is triggered based on the `browserslist` declaration in the [package.json](package.json) file. [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env) is a smart preset that allows you to use the latest JavaScript without needing to micromanage which syntax transforms (and optionally, browser polyfills) are needed by your target environment(s). This both makes your life easier and JavaScript bundles smaller!
-
-**Note:** If your project needs to support older browsers, simply update the `browserslist` declaration in the [package.json](package.json) file to your desired configuration, and both [Babel](https://babeljs.io/) and [PostCSS's](https://postcss.org/) [Autoprefixer](https://github.com/postcss/autoprefixer#readme) will update to provide the necessary transformations.
-
-### Parcel.
-
-**Fast** uses [Parcel](https://parceljs.org/) for Blazing fast bundle times. [Parcel](https://parceljs.org/) uses worker processes to enable multicore compilation and has a filesystem cache for fast rebuilds even after a restart.
-
-### Surge.
-
-**Fast** uses [Surge](https://surge.sh/) for fast and simple, static web publishing through a single command. [Surge](https://surge.sh/) allows you to deploy, update deploys (redeploy), and teardown your frontend projects in just a few seconds using default or custom domains for free.
 
 ## 🚨 Found issues?
 
