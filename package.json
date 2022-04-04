@@ -2,7 +2,6 @@
     "name": "fast",
     "version": "1.0.2",
     "description": "Develop, build, deploy, redeploy, and teardown frontend projects fast ⚡️",
-    "main": "index.js",
     "scripts": {
         "start": "parcel -p 3000 index.html",
         "serve": "\"$npm_execpath\" start --open",
@@ -28,13 +27,15 @@
         "maintained node versions"
     ],
     "devDependencies": {
-        "autoprefixer": "^9.8.6",
-        "normalize.css": "^8.0.1",
-        "parcel-bundler": "^1.12.4",
+        "@parcel/transformer-sass": "2.4.1",
+        "autoprefixer": "^10.4.4",
+        "parcel": "^2.4.1",
         "parcel-plugin-clean-dist": "^0.0.6",
         "postcss": "^8.1.0",
-        "sass": "^1.26.11",
-        "surge": "^0.21.6"
+        "sass": "^1.49.11",
+        "surge": "^0.23.1"
     },
-    "dependencies": {}
+    "dependencies": {
+        "normalize.css": "^8.0.1"
+    }
 }
